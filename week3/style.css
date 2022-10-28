@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+h1 {
+  color: purple;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  background-color: darkgrey;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+input:focus {
+  background-color: #ddd;
+  border: 1px solid black;
+}
+
+p {
+  color: #404f5e;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+.registerbtn,
+.loginbtn {
+  width: 100%;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10pc;
+  background-color: purple;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: purple;
+}
+
+.color {
+  height: 40px;
+  padding: 5px;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+  border-radius: 50px;
+}
+
+#contBtn {
+  position: relative;
+  top: 1.5em;
+  text-decoration: none;
+  background: purple;
+  color: #fff;
+  margin: auto;
+  padding: 0.8em 3em;
+  box-shadow: 0px 15px 30px rgba(50, 50, 50, 0.21);
+  border-radius: 25px;
+}
+
+#contBtn:hover {
+  background-color: rgb(66, 2, 66);
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+  padding: 40px 0;
+  background: #ebf0f5;
+}
+
+i {
+  color: purple;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: -15px;
+}
+.card {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #c8d0d8;
+  display: inline-block;
+  margin: 0 auto;
+}
